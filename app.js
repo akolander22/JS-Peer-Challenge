@@ -25,7 +25,7 @@ console.log(provided.replace('!','?'));
 
 var splitWord = provided.split('');
 var answer = splitWord.reverse();
-console.log(answer.toString());
+console.log(answer.join(''));
 //couldn't get rid of the commas in the reverse
 
 console.log(provided.split(' '));
