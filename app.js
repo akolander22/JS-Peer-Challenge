@@ -22,3 +22,14 @@ console.log(provided.charAt(1));
 console.log(provided.toUpperCase());
 
 console.log(provided.replace('!','?'));
+
+var splitWord = provided.split('');
+var answer = splitWord.reverse();
+console.log(answer.toString());
+//couldn't get rid of the commas in the reverse
+
+console.log(provided.split(' '));
+
+var laterPart = (provided.length-1)*101;
+
+console.log(laterPart.toString());
