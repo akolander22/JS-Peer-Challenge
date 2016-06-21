@@ -23,6 +23,7 @@ console.log(provided.toUpperCase());
 
 console.log(provided.replace('!','?'));
 
+<<<<<<< HEAD
 var splitWord = provided.split('');
 var answer = splitWord.reverse();
 console.log(answer.join(''));
@@ -33,3 +34,23 @@ console.log(provided.split(' '));
 var laterPart = (provided.length-1)*101;
 
 console.log(laterPart.toString());
+=======
+console.log(provided.replace('H', "'").substring(0,5));
+
+
+
+var splitProvided = provided.split('');
+
+var provArray = Array(splitProvided);
+console.log(splitProvided.reverse().join(''));
+//this reversed the order of the elements in our array, but kept the commas
+
+
+
+
+var elevenEleven = (provided.length - 1)* 101;
+
+console.log(elevenEleven.toString());
+
+console.log(provided.split(' '));
+>>>>>>> fac1126b575d7228d4364da6d400f48f7d4c7a8b
